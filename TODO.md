@@ -44,7 +44,7 @@ Add comprehensive test coverage.
 
 - [x] 3.1: Unit tests for enrollment logic — 24 tests covering register, enroll, drop, list, check, validation rules, edge cases
 - [x] 3.2: Unit tests for tool definitions and argument parsing — tool descriptor validation, executeTool dispatcher tests
-- [ ] 3.3: Integration tests for the agent server (HTTP/WebSocket endpoints, state management) — requires Cloudflare auth for workers pool
+- [x] 3.3: Integration tests for the agent server — 29 tests covering request routing, chat handler, tool-calling loop (single/multi-step/parallel/max-rounds), history endpoint, state synchronization, and end-to-end enrollment flow via mock harness
 
 ### Medium Priority
 
