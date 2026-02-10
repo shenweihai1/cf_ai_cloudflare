@@ -1,0 +1,5 @@
+# No external API keys needed - this project uses Cloudflare Workers AI (Llama 3.3)
+# which is accessed via the AI binding configured in wrangler.jsonc.
+#
+# If you want to use an external LLM (e.g., OpenAI) instead, add:
+# OPENAI_API_KEY=sk-your-key-here

@@ -1,0 +1,34 @@
+{
+  "name": "student-enrollment-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple student enrollment application built with Cloudflare Agents and Workers AI (Llama 3.3)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite dev",
+    "start": "vite dev",
+    "build": "vite build",
+    "deploy": "vite build && wrangler deploy",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "types": "wrangler types env.d.ts --include-runtime false"
+  },
+  "dependencies": {
+    "agents": "^0.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.19.0",
+    "@cloudflare/vitest-pool-workers": "^0.11.1",
+    "@cloudflare/workers-types": "^4.20251231.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.0",
+    "vitest": "^3.1.0",
+    "wrangler": "^4.14.0"
+  }
+}
