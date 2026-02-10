@@ -51,4 +51,4 @@ Add comprehensive test coverage.
 #### Task 4: Documentation [MEDIUM]
 - [x] 4.1: Write README.md with project overview, architecture diagram, setup instructions, usage examples, and development guide
 - [x] 4.2: Write PROMPTS.md documenting all AI prompts — system prompt, 5 tool descriptors, conversation format, tool-result feedback loop, and design rationale
-- [ ] 4.3: Write a comprehensive markdown guide (docs/GUIDE.md) explaining the codebase for beginners — what each file does, why design decisions were made, how the components interact
+- [x] 4.3: Write comprehensive codebase guide (docs/GUIDE.md) — message flow diagram, file-by-file walkthrough, config explanations, design decisions rationale, and glossary
